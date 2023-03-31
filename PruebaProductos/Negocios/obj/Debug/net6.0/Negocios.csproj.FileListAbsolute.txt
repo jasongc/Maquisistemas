@@ -1,0 +1,5 @@
+C:\Maquisistemas\Maquisistemas\PruebaProductos\Negocios\obj\Debug\net6.0\Negocios.csproj.AssemblyReference.cache
+C:\Maquisistemas\Maquisistemas\PruebaProductos\Negocios\obj\Debug\net6.0\Negocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Maquisistemas\Maquisistemas\PruebaProductos\Negocios\obj\Debug\net6.0\Negocios.AssemblyInfoInputs.cache
+C:\Maquisistemas\Maquisistemas\PruebaProductos\Negocios\obj\Debug\net6.0\Negocios.AssemblyInfo.cs
+C:\Maquisistemas\Maquisistemas\PruebaProductos\Negocios\obj\Debug\net6.0\Negocios.csproj.CoreCompileInputs.cache
