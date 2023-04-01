@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 namespace AccesoDatos.Interfaces
 {
     public interface IProductoACD
-    {        
-        public bool Insert();
-        public bool Update();
-        public List<ProductoENT> Get();
-        public ProductoENT GetById();
+    {
+        public int InsertOrUpdate(ProductoENT productoENT);
+        public List<ProductoENT> Get(int? ProductId = null);
+        public ProductoENT GetById(int ProductId);
     }
 }

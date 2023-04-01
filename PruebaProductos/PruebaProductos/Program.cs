@@ -1,12 +1,14 @@
 using AccesoDatos.Clases;
 using AccesoDatos.Interfaces;
 using Entidades.Conexion;
+using Middleware;
 using Negocios.Clases;
 using Negocios.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
 
 builder.Services.AddTransient<PruebaProductoContext>();
 builder.Services.AddTransient<IProductoNEG, ProductoNEG>();
@@ -25,7 +27,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseMiddleware<TiempoRespuestaMDW>();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

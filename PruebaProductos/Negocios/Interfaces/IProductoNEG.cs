@@ -11,9 +11,10 @@ namespace Negocios.Interfaces
 {
     public interface IProductoNEG
     {
-        public void Insert();
-        public void Update();
-        public RespuestaENT<List<ProductoENT>> Get();
-        public RespuestaENT<ProductoENT> GetById();
+        public int Insert(ProductoENT productoENT);
+        public void Update(ProductoENT productoENT);
+
+        public List<ProductoENT> Get();
+        public ProductoENT GetById(int ProductId);
     }
 }

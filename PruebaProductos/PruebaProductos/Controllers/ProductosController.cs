@@ -20,35 +20,78 @@ namespace PruebaProductos.Controllers
 
         // GET: api/<ProductosController>
         [HttpGet]
-        public RespuestaENT<List<ProductoENT>> Get()
+        public ActionResult<RespuestaENT<List<ProductoENT>>> Get()
         {
-
-            return new RespuestaENT<List<ProductoENT>>();
+            RespuestaENT<List<ProductoENT>> respuestaENT = new RespuestaENT<List<ProductoENT>>();
+            try
+            {
+                respuestaENT.Resultado = _productoNEG.Get();
+                respuestaENT.Success("Se listó correctamente");
+                return Ok(respuestaENT);
+            }
+            catch (Exception ex)
+            {
+                respuestaENT.Error(ex);
+                return BadRequest(respuestaENT);
+            }
         }
 
         // GET api/<ProductosController>/5
         [HttpGet("GetById/{id}")]
-        public string GetById(int id)
+        public ActionResult<RespuestaENT<ProductoENT>> GetById(int id)
         {
-            return "value";
+            RespuestaENT<ProductoENT> respuestaENT = new RespuestaENT<ProductoENT>();
+            try
+            {
+                respuestaENT.Resultado = _productoNEG.GetById(id);
+                respuestaENT.Success("Se obtuvo correctamente el producto");
+                return Ok(respuestaENT);
+            }
+            catch (Exception ex)
+            {
+                respuestaENT.Error(ex);
+                return BadRequest(respuestaENT);
+            }
+            
         }
 
         // POST api/<ProductosController>
         [HttpPost]
-        public void Insert([FromBody] string value)
+        public ActionResult<RespuestaENT> Insert([FromBody] ProductoENT productoENT)
         {
+            RespuestaENT<int> respuestaENT = new RespuestaENT<int>();
+            try
+            {
+                respuestaENT.Resultado = _productoNEG.Insert(productoENT);
+                respuestaENT.Success("Se registró correctamente el producto");
+                return CreatedAtAction(nameof(Insert), respuestaENT);
+            }
+            catch (Exception ex)
+            {
+                respuestaENT.Error(ex);
+                return BadRequest(respuestaENT);
+            }
+
         }
 
         // PUT api/<ProductosController>/5
         [HttpPut("{id}")]
-        public void Update(int id, [FromBody] string value)
+        public ActionResult<RespuestaENT> Update(int id, [FromBody] ProductoENT productoENT)
         {
+            RespuestaENT respuestaENT = new RespuestaENT();
+            try
+            {
+                productoENT.InternalProductId = id;
+                _productoNEG.Insert(productoENT);
+                respuestaENT.Success("Se actualizó correctamente el producto.");
+                return Ok(respuestaENT);
+            }
+            catch (Exception ex)
+            {
+                respuestaENT.Error(ex);
+                return BadRequest(respuestaENT);
+            }
         }
 
-        //// DELETE api/<ProductosController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }

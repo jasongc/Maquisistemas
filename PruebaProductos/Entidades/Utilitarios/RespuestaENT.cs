@@ -10,23 +10,17 @@ namespace Entidades.Utilitarios
         [JsonPropertyName("exito")]
         public bool bExito { get; set; }
         [JsonPropertyName("mensaje")]
-        public string? vMensaje { get; set; }
-        [JsonPropertyName("codigo_estado")]
-        public HttpStatusCode siCodigoEstado { get; set; }
+        public string? Mensaje { get; set; }
 
-        public void Success(string stMensaje, HttpStatusCode httpStatusCode = HttpStatusCode.OK)
+        public void Success(string stMensaje)
         {
             bExito = true;
-            vMensaje = stMensaje;
-            siCodigoEstado = httpStatusCode;
+            Mensaje = stMensaje;
         }
-        public void Error(Exception ex, HttpStatusCode httpStatusCode)
+        public void Error(Exception ex)
         {
             bExito = false;
-            vMensaje = ex.Message;
-            siCodigoEstado = httpStatusCode;
-            //Log log = new Log();
-            //log.Generar(enLog);
+            Mensaje = ex.Message;
         }
 
         public static RespuestaENT Instance
@@ -44,15 +38,14 @@ namespace Entidades.Utilitarios
     public class RespuestaENT<T> : RespuestaENT, IRespuestaENT
     {
         [JsonPropertyName("resultado")]
-        public T? oResultado { get; set; }
+        public T? Resultado { get; set; }
     }
     public interface IRespuestaENT
     {
         public bool bExito { get; set; }
-        public string? vMensaje { get; set; }
-        public HttpStatusCode siCodigoEstado { get; set; }
-        abstract void Success(string stMensaje, HttpStatusCode httpStatusCode);
-        abstract void Error(Exception ex, HttpStatusCode httpStatusCode);
+        public string? Mensaje { get; set; }
+        abstract void Success(string stMensajee);
+        abstract void Error(Exception ex);
 
     }
 }

@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Negocios\\Negocios.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Negocios\\Negocios.csproj": {}
   },
   "projects": {
-    "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\AccesoDatos\\AccesoDatos.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\AccesoDatos\\AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\AccesoDatos\\AccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\AccesoDatos\\AccesoDatos.csproj",
         "projectName": "AccesoDatos",
-        "projectPath": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\AccesoDatos\\AccesoDatos.csproj",
-        "packagesPath": "C:\\Users\\jjgutierrez\\.nuget\\packages\\",
-        "outputPath": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\AccesoDatos\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\AccesoDatos\\AccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\AccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jjgutierrez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -34,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -64,28 +58,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\jjgutierrez\\.nuget\\packages\\",
-        "outputPath": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Entidades\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jjgutierrez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -134,28 +122,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Negocios\\Negocios.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Negocios\\Negocios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Negocios\\Negocios.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Negocios\\Negocios.csproj",
         "projectName": "Negocios",
-        "projectPath": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Negocios\\Negocios.csproj",
-        "packagesPath": "C:\\Users\\jjgutierrez\\.nuget\\packages\\",
-        "outputPath": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Negocios\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Negocios\\Negocios.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Negocios\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jjgutierrez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -168,11 +150,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\AccesoDatos\\AccesoDatos.csproj": {
-                "projectPath": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\AccesoDatos\\AccesoDatos.csproj"
+              "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\AccesoDatos\\AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\AccesoDatos\\AccesoDatos.csproj"
               },
-              "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj": {
-                "projectPath": "C:\\Maquisistemas\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj"
+              "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Entidades\\Entidades.csproj"
               }
             }
           }
@@ -201,7 +183,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

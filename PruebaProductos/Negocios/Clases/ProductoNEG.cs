@@ -12,57 +12,49 @@ namespace Negocios.Clases
         {
             _productoACD = productoACD;
         }
-        public void Insert()
+        public int Insert(ProductoENT productoENT)
         {
             try
             {
-                _productoACD.Insert();
+                return _productoACD.InsertOrUpdate(productoENT);
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
-        public void Update()
+        public void Update(ProductoENT productoENT)
         {
             try
             {
-                _productoACD.Update();
+                _productoACD.InsertOrUpdate(productoENT);
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
         }
-        public RespuestaENT<List<ProductoENT>> Get()
+        public List<ProductoENT> Get()
         {
             try
             {
-                _productoACD.Update();
+                return _productoACD.Get();
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
-
-            return new RespuestaENT<List<ProductoENT>>();
         }
-        public RespuestaENT<ProductoENT> GetById()
+        public ProductoENT GetById(int ProductId)
         {
-            RespuestaENT<ProductoENT>
             try
             {
-                _productoACD.GetById();
+                return _productoACD.GetById(ProductId);
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
-            return new RespuestaENT<ProductoENT>();
         }
     }
 }
