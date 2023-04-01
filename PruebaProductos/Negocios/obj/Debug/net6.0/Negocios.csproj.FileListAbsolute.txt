@@ -20,3 +20,5 @@ C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Neg
 C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Negocios\obj\Debug\net6.0\refint\Negocios.dll
 C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Negocios\obj\Debug\net6.0\Negocios.pdb
 C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Negocios\obj\Debug\net6.0\ref\Negocios.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Negocios\bin\Debug\net6.0\ApisTerceros.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Negocios\bin\Debug\net6.0\ApisTerceros.pdb

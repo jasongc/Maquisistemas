@@ -14,6 +14,7 @@ namespace Entidades.Clases
 		public int ProductId { get => InternalProductId; }
 		public string Name { get; set; } = string.Empty;
 		public short Status { get; set; }
+		public string StatusName { get => InternalStatusName; }
 		public decimal Stock { get; set; }
 		public string Description { get; set; } = string.Empty;
 		public decimal Price { get; set; }
@@ -22,14 +23,16 @@ namespace Entidades.Clases
 
 		#region EXTRAS
 
-		public decimal Discount { get; }
+		public string Discount { get => InternalDiscount.ToString() + "%"; }
 
-		public decimal FinalPrice { get => Price * ((100 - Discount) / 100); }
+		public decimal FinalPrice { get => Price * ((100 - InternalDiscount) / 100); }
 
         [JsonIgnore]
 		public int InternalProductId { get; set; }
 		[JsonIgnore]
 		public decimal InternalDiscount { get; set; }
+		[JsonIgnore]
+		public string InternalStatusName { get; set; } = string.Empty;
 		[JsonIgnore]
 		public DateTime InternalCreateDate { get; set; }
 		[JsonIgnore]

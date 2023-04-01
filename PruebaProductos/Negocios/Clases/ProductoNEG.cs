@@ -1,6 +1,5 @@
 ﻿using AccesoDatos.Interfaces;
 using Entidades.Clases;
-using Entidades.Utilitarios;
 using Negocios.Interfaces;
 
 namespace Negocios.Clases
@@ -16,6 +15,9 @@ namespace Negocios.Clases
         {
             try
             {
+                if (ValidarCamposObligatorios(productoENT))
+                    throw new Exception("Los campos de Nombre y Descripción del producto son obligatorios.");
+
                 return _productoACD.InsertOrUpdate(productoENT);
             }
             catch (Exception ex)
@@ -27,6 +29,9 @@ namespace Negocios.Clases
         {
             try
             {
+                if (ValidarCamposObligatorios(productoENT))
+                    throw new Exception("Los campos de Nombre y Descripción del producto son obligatorios.");
+
                 _productoACD.InsertOrUpdate(productoENT);
             }
             catch (Exception ex)
@@ -55,6 +60,11 @@ namespace Negocios.Clases
             {
                 throw ex;
             }
+        }
+
+        private bool ValidarCamposObligatorios(ProductoENT productoENT)
+        {
+            return string.IsNullOrEmpty(productoENT.Name) || string.IsNullOrEmpty(productoENT.Description);
         }
     }
 }

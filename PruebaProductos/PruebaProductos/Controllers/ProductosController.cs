@@ -1,4 +1,5 @@
-﻿using Entidades;
+﻿using AccesoDatos.Interfaces;
+using Entidades;
 using Entidades.Clases;
 using Entidades.Utilitarios;
 using Microsoft.AspNetCore.Mvc;
@@ -13,9 +14,14 @@ namespace PruebaProductos.Controllers
     public class ProductosController : ControllerBase
     {
         protected readonly IProductoNEG _productoNEG;
-        public ProductosController(IProductoNEG productoNEG)
+        public ProductosController(IProductoNEG productoNEG, IDatosCacheACD datosCacheACD)
         {
             _productoNEG = productoNEG;
+
+            Dictionary<int, string> diccionarioEstados = new Dictionary<int, string>();
+            diccionarioEstados.Add(1, "Active");
+            diccionarioEstados.Add(0, "Inactive");
+            datosCacheACD.GetCacheValues(diccionarioEstados, "EstadoCacheKey");
         }
 
         // GET: api/<ProductosController>

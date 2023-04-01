@@ -1,17 +1,23 @@
 ﻿using AccesoDatos.Interfaces;
+using ApisTerceros;
 using Entidades.Clases;
 using Entidades.Conexion;
+using Microsoft.Extensions.Caching.Memory;
 using System.Data;
 using System.Data.SqlClient;
 
 namespace AccesoDatos.Clases
 {
-    public class ProductoACD : IProductoACD
+    public class ProductoACD : IProductoACD 
     {
         protected readonly PruebaProductoContext _context;
-        public ProductoACD(PruebaProductoContext context)
+        protected readonly IDatosCacheACD _datosCacheACD;
+        protected readonly IMockApiAT _mockApiAT;
+        public ProductoACD(PruebaProductoContext context, IDatosCacheACD datosCacheACD, IMockApiAT mockApiAT)
         {
             _context = context;
+            _datosCacheACD = datosCacheACD;
+            _mockApiAT = mockApiAT;
         }
         public int InsertOrUpdate(ProductoENT productoENT)
         {
@@ -54,6 +60,8 @@ namespace AccesoDatos.Clases
         }
         public List<ProductoENT> Get(int? ProductId = null)
         {
+            Dictionary<int, string>? EstadosCache = _datosCacheACD.GetCacheValues(null, "EstadoCacheKey");
+
             List<ProductoENT> productoENTs = new List<ProductoENT>();
             ProductoENT productoENT;
             using (SqlConnection cnn = _context.Connection())
@@ -78,6 +86,10 @@ namespace AccesoDatos.Clases
                             productoENT.Price = _context.reader<decimal>(drd, "Price");
                             productoENT.InternalCreateDate = _context.reader<DateTime>(drd, "CreateDate");
                             productoENT.InternalUpdateDate = _context.reader<DateTime>(drd, "UpdateDate");
+                            productoENT.InternalStatusName = EstadosCache == null ? "-" : EstadosCache[productoENT.Status];
+
+                            if(ProductId != null)//SE CONDICIONA QUE SEA POR ID POR TEMA DE RENDIMIENTO
+                                productoENT.InternalDiscount = _mockApiAT.ObtenerDescuento(productoENT.ProductId);
 
                             productoENTs.Add(productoENT);
                         }

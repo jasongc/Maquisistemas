@@ -51,3 +51,11 @@ C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Pru
 C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\Middleware.dll
 C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\Middleware.pdb
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\ApisTerceros.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\PruebaProductos\bin\Debug\net6.0\ApisTerceros.pdb

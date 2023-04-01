@@ -60,7 +60,7 @@ BEGIN
 END
 GO
 CREATE PROCEDURE ObtenerProducto
-	@pProductId INT
+	@pProductId INT = NULL
 AS
 BEGIN
 	SELECT

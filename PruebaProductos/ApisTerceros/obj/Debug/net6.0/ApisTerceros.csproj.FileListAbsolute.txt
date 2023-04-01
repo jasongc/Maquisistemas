@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\bin\Debug\net6.0\ApisTerceros.deps.json
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\bin\Debug\net6.0\ApisTerceros.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\bin\Debug\net6.0\ApisTerceros.pdb
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\bin\Debug\net6.0\Entidades.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\bin\Debug\net6.0\Entidades.pdb
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\obj\Debug\net6.0\ApisTerceros.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\obj\Debug\net6.0\ApisTerceros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\obj\Debug\net6.0\ApisTerceros.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\obj\Debug\net6.0\ApisTerceros.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\obj\Debug\net6.0\ApisTerceros.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\obj\Debug\net6.0\ApisTerceros.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\obj\Debug\net6.0\ApisTerceros.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\obj\Debug\net6.0\refint\ApisTerceros.dll
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\obj\Debug\net6.0\ApisTerceros.pdb
+C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\ApisTerceros\obj\Debug\net6.0\ref\ApisTerceros.dll
