@@ -10,3 +10,15 @@ C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Mid
 C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\refint\Middleware.dll
 C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\Middleware.pdb
 C:\Users\Lenovo\Desktop\EVALUACIONES TÉCNICAS\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\ref\Middleware.dll
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\bin\Debug\net6.0\Middleware.deps.json
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\bin\Debug\net6.0\Middleware.dll
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\bin\Debug\net6.0\Middleware.pdb
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\Middleware.csproj.AssemblyReference.cache
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\Middleware.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\Middleware.AssemblyInfoInputs.cache
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\Middleware.AssemblyInfo.cs
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\Middleware.csproj.CoreCompileInputs.cache
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\Middleware.dll
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\refint\Middleware.dll
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\Middleware.pdb
+C:\Users\gutie\Desktop\Evaluaciones Técnicas\Maquisistemas\PruebaProductos\Middleware\obj\Debug\net6.0\ref\Middleware.dll

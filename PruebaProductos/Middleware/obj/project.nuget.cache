@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "BwUiYh/Cr7xl6RzWhJz7LqyyRcY4Ce+8upq2Rbibsl1heTPMHKA1AchGiAxtQIyL0ZL5MJ0DBKuu2GNrU1ZhvQ==",
+  "dgSpecHash": "qHX2swFNd2tt0ZFiz5kbVjtUUFJ2hmi2nvuNzk5YXnptjkwbtrMU6wLOmErgre5VOmjqXKJRNtlp/zWqsILl4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\EVALUACIONES TÉCNICAS\\Maquisistemas\\PruebaProductos\\Middleware\\Middleware.csproj",
+  "projectFilePath": "C:\\Users\\gutie\\Desktop\\Evaluaciones Técnicas\\Maquisistemas\\PruebaProductos\\Middleware\\Middleware.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.2.23128.3\\microsoft.extensions.configuration.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.2.23128.3\\microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Lenovo\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Users\\gutie\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\gutie\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\gutie\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\gutie\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.2.23128.3\\microsoft.extensions.configuration.abstractions.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\gutie\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\gutie\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.2.23128.3\\microsoft.extensions.primitives.8.0.0-preview.2.23128.3.nupkg.sha512",
+    "C:\\Users\\gutie\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\gutie\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
