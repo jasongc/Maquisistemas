@@ -16,5 +16,5 @@ NOTA
 -Ejecutar el script que se encuentra en la carpeta "Base de datos" en el SQL SERVER
 
 
-Sin más, espero que la solición del reto se haya cumplido con este proyecto.
+Sin más, espero que la solución del reto se haya cumplido con este proyecto.
 
