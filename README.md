@@ -1,6 +1,6 @@
 # Maquisistemas
 
-Para el proyecto se usó los siguiente:
+Para el proyecto se usó lo siguiente:
 -VisualStudio 2022
 -.NET 6
 -C#
